@@ -11,6 +11,18 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Zend\ServiceManager\Di',
+    'Zend\Mvc\Plugin\FilePrg',
+    'Zend\Mvc\Plugin\Identity',
+    'Zend\Mvc\Plugin\Prg',
+//    'Zend\Mvc\I18n',
+    'Zend\Mvc\Console',
+    'Zend\Log',
+    'Zend\Cache',
+    'Zend\InputFilter',
+    'Zend\Filter',
+    'Zend\Hydrator',
+//    'Zend\I18n',
     'Zend\Paginator',
     'Zend\Mail',
     'Zend\Navigation',
@@ -24,7 +36,7 @@ return [
     'DoctrineORMModule',
     'Application',
     'MKDF\Core',
-    'MKDF\Datasets',
-    'MKDF\Topics',
-    'MKDF\Keys',
+//    'MKDF\Datasets',
+//    'MKDF\Topics',
+//    'MKDF\Keys',
 ];
